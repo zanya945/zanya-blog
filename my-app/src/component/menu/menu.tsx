@@ -1,13 +1,14 @@
 import React from "react";
-import './styles.sass'
+import "./sass/styles.sass"
 
 
 function Menu() {
     return (
-        <ul id="menu">
-            <li id="item"><a>home</a></li>
-            <li id="item">about</li>
-        </ul>
+        <div className="container">
+            <div className="inside_container">
+                <p className="blog_name">EA代儲</p>
+            </div>
+        </div>
     );
 }
 
