@@ -7,11 +7,11 @@ export default function Content(){
             <div className="innerContainer1">
                 <p className="normalText">遊戲種類</p>
                 <ul className="comgame-kind">
-                    <li className="item"> <a href='' className='game-name'>特戰英豪</a> </li>
-                    <li className="item"> <a href='' className='game-name'>英雄聯盟</a> </li>
-                    <li className="item"> <a href='' className='game-name'>聯盟戰棋</a> </li>
-                    <li className="item"> <a href='' className='game-name'>APEX</a> </li>
-                    <li className="item"> <a href='' className='game-name'></a> </li>
+                    <li className="item"> <a href='#' className='game-name'>特戰英豪</a> </li>
+                    <li className="item"> <a href='#' className='game-name'>英雄聯盟</a> </li>
+                    <li className="item"> <a href='#' className='game-name'>聯盟戰棋</a> </li>
+                    <li className="item"> <a href='#' className='game-name'>APEX</a> </li>
+                    <li className="item"> <a href='#' className='game-name'></a> </li>
                 </ul>
             </div>
             
