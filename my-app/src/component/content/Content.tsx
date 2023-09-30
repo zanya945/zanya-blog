@@ -11,7 +11,7 @@ export default function Content(){
                     <li className="item"> <a href='!#' className='game-name'>英雄聯盟</a> </li>
                     <li className="item"> <a href='!#' className='game-name'>聯盟戰棋</a> </li>
                     <li className="item"> <a href='!#' className='game-name'>APEX</a> </li>
-                    <li className="item"> <a href='!#' className='game-name'></a> </li>
+                    <li className="item"> <a href='!#' className='game-name'>ouob</a> </li>
                 </ul>
             </div>
             
