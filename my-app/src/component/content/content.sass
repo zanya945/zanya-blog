@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap')
 
 
+
 .outerContainer
     display: flex
     .innerContainer1
         margin-top: 8vh
-        margin-left: 3vw
         width: 33vw
+        text-align: center
 
         .normalText
             color: white
             display: inline
-            font-size: 2vh
+            font-size: 3vh
             font-family: Noto Sans TC
+        
         .comgame-kind
             margin-top: 3vh
             margin-left: 2vw
@@ -21,9 +23,37 @@
                 margin-bottom: 1vh
                 .game-name
                     color: white
-                    text-decoration: none
                     font-family: Noto Sans TC
-                    padding: 0vh 2vw 0vw 2vh
+                    font-size: 2vh
+                    padding: 0vh 2vh 0vw 2vh
+                    border-radius: 5px
+                    text-decoration: none
+                    
 
                     &:hover
                         background: #474747
+    .innerContainer2
+        display: flex
+        flex-direction: column
+        justify-content: space-evenly
+        margin-top: 8vh
+        width: 33vw
+        align-items: center
+        .account-input
+            padding: 10vh
+            background: #000000
+            border-radius: 10px
+            .item
+                margin-bottom: 2vh
+                .input-box
+                    border-radius: 5px
+                    height: 3vh
+                    size: 20
+                .text
+                    margin-bottom: 1vh
+    .innerContainer3
+        flex-grow: 1
+.text
+    color: white
+    font-family: Noto Sans TC
+    font-size: 2vh 
