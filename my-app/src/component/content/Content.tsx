@@ -33,7 +33,41 @@ export default function Content(){
                         </div>
                     </div>
                     <div className="Quota">
-                        <input type="radio"/>
+                        <label className="label">choose aomunt</label>
+                         <form>
+                            <div className="radio-container">
+                                <input type="radio" value="160" name="amount" className="amount-radio"/>
+                                <label>160NTD</label>
+                            </div>
+                            <div className="radio-container">
+                                <input type="radio" value="290" name="amount" className="amount-radio"/>
+                                <label>290NTD</label>
+                            </div>
+                            <div className="radio-container">
+                                <input type="radio" value="450" name="amount" className="amount-radio"/>
+                                <label>450NTD</label>
+                            </div>
+                            <div className="radio-container">
+                                <input type="radio" value="550" name="amount" className="amount-radio"/>
+                                <label>550NTD</label>
+                            </div>
+                            <div className="radio-container">
+                                <input type="radio" value="1050" name="amount" className="amount-radio"/>
+                                <label>1050NTD</label>
+                            </div>
+                            <div className="radio-container">
+                                <input type="radio" value="1450" name="amount" className="amount-radio"/>
+                                <label>1450NTD</label>
+                            </div>
+                            <div className="radio-container">
+                                <input type="radio" value="1850" name="amount" className="amount-radio"/>
+                                <label>1850NTD</label>
+                            </div>
+                            <div className="radio-container">
+                                <input type="radio" value="1850" name="amount" className="amount-radio"/>
+                                <label>2590NTD</label>
+                            </div>
+                         </form>
                     </div>
                 </div>
 
