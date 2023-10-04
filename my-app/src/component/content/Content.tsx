@@ -1,5 +1,7 @@
 import React from 'react'
 import './content.sass'
+import ad1 from './ad-image1.jpg'
+import ad2 from './ad-image2.jpg'
 
 export default function Content(){
     return(
@@ -31,9 +33,10 @@ export default function Content(){
                             <p className="text">請輸入密碼：</p>
                             <input className="input-box"/>
                         </div>
+                        <button className="confirm-btn" >send</button>
                     </div>
                     <div className="Quota">
-                        <label className="label">choose aomunt</label>
+                        <label className="label1">choose amount</label>
                          <form>
                             <div className="radio-container">
                                 <input type="radio" value="160" name="amount" className="amount-radio"/>
@@ -72,7 +75,8 @@ export default function Content(){
                 </div>
 
                 <div className="innerContainer3">
-
+                    <img className="ad-image1" src={ad1}/>
+                    <img className="ad-image2" src={ad2}/>
                 </div>
             </div>
         </>
