@@ -75,8 +75,8 @@ export default function Content(){
                 </div>
 
                 <div className="innerContainer3">
-                    <img className="ad-image1" src={ad1}/>
-                    <img className="ad-image2" src={ad2}/>
+                    <img className="ad-image1" src={ad1} alt="advertisement"/>
+                    <img className="ad-image2" src={ad2} alt="advertisement"/>
                 </div>
             </div>
         </>
