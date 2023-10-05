@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/zanya-blog/static/css/main.f1e84072.chunk.css",
+    "main.js": "/zanya-blog/static/js/main.d26bd68a.chunk.js",
+    "main.js.map": "/zanya-blog/static/js/main.d26bd68a.chunk.js.map",
+    "runtime-main.js": "/zanya-blog/static/js/runtime-main.016810a5.js",
+    "runtime-main.js.map": "/zanya-blog/static/js/runtime-main.016810a5.js.map",
+    "static/js/2.367ea52a.chunk.js": "/zanya-blog/static/js/2.367ea52a.chunk.js",
+    "static/js/2.367ea52a.chunk.js.map": "/zanya-blog/static/js/2.367ea52a.chunk.js.map",
+    "static/js/3.693a88b8.chunk.js": "/zanya-blog/static/js/3.693a88b8.chunk.js",
+    "static/js/3.693a88b8.chunk.js.map": "/zanya-blog/static/js/3.693a88b8.chunk.js.map",
+    "index.html": "/zanya-blog/index.html",
+    "static/css/main.f1e84072.chunk.css.map": "/zanya-blog/static/css/main.f1e84072.chunk.css.map",
+    "static/js/2.367ea52a.chunk.js.LICENSE.txt": "/zanya-blog/static/js/2.367ea52a.chunk.js.LICENSE.txt",
+    "static/media/ad-image1.1d99543e.jpg": "/zanya-blog/static/media/ad-image1.1d99543e.jpg",
+    "static/media/ad-image2.579069f0.jpg": "/zanya-blog/static/media/ad-image2.579069f0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.016810a5.js",
+    "static/js/2.367ea52a.chunk.js",
+    "static/css/main.f1e84072.chunk.css",
+    "static/js/main.d26bd68a.chunk.js"
+  ]
+}
