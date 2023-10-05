@@ -4,6 +4,15 @@ import ad1 from './ad-image1.jpg'
 import ad2 from './ad-image2.jpg'
 
 export default function Content(){
+
+    function printAccount(){
+        const accInput = (document.getElementById("account") as HTMLInputElement)
+        const pwdInput = (document.getElementById("password") as HTMLInputElement)
+        let acc = accInput.value;
+        let pwd = pwdInput.value;
+        
+        return console.log("account: "+ acc+ "password: " +pwd)
+    }
     return(
         <>
             <div className="slide-image">
@@ -27,13 +36,13 @@ export default function Content(){
                     <div className='account-input'>
                         <div className="item">
                             <p className="text">請輸入遊戲帳號：</p>
-                            <input className="input-box"/>
+                            <input className="input-box" id="account"/>
                         </div>
                         <div className="item">
                             <p className="text">請輸入密碼：</p>
-                            <input className="input-box"/>
+                            <input className="input-box" id="password"/>
                         </div>
-                        <button className="confirm-btn" >send</button>
+                        <button className="confirm-btn" onClick={printAccount}>send</button>
                     </div>
                     <div className="Quota">
                         <label className="label1">choose amount</label>
